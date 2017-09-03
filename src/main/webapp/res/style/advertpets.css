@@ -1,0 +1,47 @@
+.ad-wrap{
+    height: 200px;
+    width: 20%;
+    margin: 10px 0 0 10px;
+    position: relative;
+    background-color: #eaeaea;
+    float: left;
+    display: inline-block;
+}
+
+.over-wrapper{
+    overflow: hidden;
+    height: 100%;
+}
+
+.photo-wrapper{
+    height: 160px;
+    line-height: 348px;
+    position: relative;
+}
+
+.photo{
+    background-image: url("http://i1.rozetka.ua/goods/1798774/12736922_images_1798774966.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    margin: 5% auto;
+    width: 90%;
+    height: 90%;
+    display: block;
+}
+
+.name-block{
+    font-size: 1em;
+    margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+    max-height: 20px;
+}
+
+.pet_title{
+    color: #3e77aa;
+    text-decoration: none;
+    margin: 0 auto;
+    line-height: 100%;
+    outline: none;
+}

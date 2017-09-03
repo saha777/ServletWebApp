@@ -1,0 +1,15 @@
+.log_wrap{
+    background-color: #00FF7F;
+    margin: 10px auto;
+    border-radius: 20px; 
+    
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+.log_body{
+    margin: 20px;
+    padding-top: 20px;
+    width: 360px;
+    height: 250px; 
+}

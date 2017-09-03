@@ -1,0 +1,18 @@
+<%@ page import="dbService.datasets.Pet" %>
+<%@ page import="dbService.datasets.User" %>
+<%@ page import="dbService.DBService" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    DBService dbService = new DBService();
+    for(Pet pet : dbService.getAllPets()){
+        User user = pet.getUser();
+%>
+<div class="ad-wrap">
+    <div class="ad-block">
+        <div id="animal-class"><%=pet.getAnimalClass()%></div><br>
+        <div id="animal-name"><%=pet.getName()%></div><br>
+        <div id="user-acc" href="#"><%=user.getName()%></div><br>
+        <div id="user-loc"><%=user.getCountry()+" "+user.getLocation()%></div>
+    </div>
+</div>
+<%}%>

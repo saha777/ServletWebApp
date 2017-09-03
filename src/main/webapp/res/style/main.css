@@ -1,0 +1,174 @@
+/* Шапка */
+.body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #CCCCCC;
+}
+.menu_wrap{
+    width: available;
+    height: 50px;
+    background-color: #00FF7F;
+    position: relative;
+}
+.title-block{
+    width: 200px;
+    height: 100%;
+    float: left;
+    display: inline-block;
+}
+.title{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu_list{
+    margin-left: 40px;
+    display: inline-block;
+    width: 620px;
+    height: 50px;
+}
+.user{
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    margin-right: 40px;
+    float: right;
+}
+.item{
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item:hover{
+    background: white;
+    color: #00FF7F;
+}
+
+/* Кінець шапки */
+
+/* Пошук на головній сторінці */
+
+.search_wrap{
+    background-color: #00FF7F;
+    margin: 60px auto;
+    border-radius: 20px; 
+    
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+.search_body{
+    margin: 20px;
+    padding-top: 20px;
+    width: 360px;
+    height: 360px;
+}
+.options{
+    width: 360px;
+    height: 300px;
+    
+    padding: 10px 0px;
+    
+}
+.e_wrap{
+    width: 360px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+    display: block;
+}
+.m_label{
+    height: 40px;
+    width: 150px;
+    
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: inherit;
+    
+    float: left;
+}
+.e_form{
+    height: 30px;
+    width: 150px;
+    float: right;
+}
+#d_label{
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: inherit;
+}
+#button{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #00FF7F;
+    
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+    width: 100%;
+    height: 40px;
+    
+    display: inline-block;
+}
+#button:hover{
+    background-color: #FF6347;
+}
+
+/*-----  MyPage -----*/
+
+.back-cover{
+    width: 1200px;
+    height: 1300px;
+    margin: 50px auto;
+    background: grey;
+}
+.inform-block{
+    width: 300px;
+    height: 700px;
+    
+    border-radius: 10px;
+    
+    margin: 20px;
+    
+    float: left;
+        
+    background-color: green;
+}
+.prod-block{
+    width: 800px;
+    height: 1200px;
+    
+    border-radius: 10px;
+    
+    margin: 20px; 
+    
+    float: right;
+        
+    background-color: goldenrod;
+}
